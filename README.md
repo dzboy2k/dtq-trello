@@ -27,3 +27,32 @@ cmd
   git add .
   git push origin main
 ```
+### 02 - Design & Code giao diện
+```
+cmd
+  git branch
+  git checkout -b update_readme
+markdown syntax github => Mastering Markdown · GitHub Guides
+
+vscode
+  atom on dark => Atom On Dark Theme
+  vscode icons
+cmd
+  git status
+  git add .
+  git commit -m "Update readme."
+  git push origin update_readme
+github
+  main => Compare & pull request
+    base: main
+    compara: update_readme
+  => Create pull request
+  Files changed
+  Review changes
+cmd
+  Thay đổi file readme
+  git add .
+  git commit --amend
+  :wq
+  git push origin update_readme -f
+```
