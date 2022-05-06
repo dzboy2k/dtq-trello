@@ -1,4 +1,5 @@
 ## Trello
+
 ### 01 - Tạo project
 ```
 node 14.7.0
@@ -27,7 +28,9 @@ cmd
   git add .
   git push origin main
 ```
+
 ### 02 - Design & Code giao diện
+#### 02 - P1 - Update Readme
 ```
 cmd
   git branch
@@ -55,4 +58,30 @@ cmd
   git commit --amend
   :wq
   git push origin update_readme -f
+github
+  Conversation => Merge pull request => Confirm merge
+  Delete branch
+cmd
+  git checkout main
+  git pull origin main
+  clear
+  git branch
+  git branch -D update_readme
+  git checkout -b design_trello
+  clear
+  yarn start
+```
+
+#### 02 - P2 - Design Trello
+```
+cmd 
+  nvm use 14.7.0
+  npm i node-sass --save
+import google font css
+webkit-scrollbar
+cmd 
+  git status
+  git add .
+  git commit -m "Design trello Front-end."
+  git push origin design_trello
 ```
