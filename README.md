@@ -84,11 +84,33 @@ cmd
   git add .
   git commit -m "Design trello Front-end."
   git push origin design_trello
-Compare & pull request => Create pull request => Merce pull request
+Compare & pull request => Create pull request => Merge pull request
 cmd
   git checkout main
   git pull origin main
   git branch
   git branch -D design_trello
   git status
+```
+
+### 03 - Tái cấu trúc
+```
+cmd
+  git checkout -b clean_architecture
+  clear
+  yarn start
+facebook/create-react-app -> Issues
+  https://github.com/facebook/create-react-app/issues/87
+jsconfig.json => jsconfig.json Reference - Visual Studio Code
+Ctrl + P
+Ctrl + Shift + F
+cmd
+  git status
+  git add .
+  git commit -m "03-Clean React Architecture." 
+  git push origin clean_architecture
+github
+  Compare & pull request => Create pull request
+  Files changed
+  Merge pull request => Confirm merge
 ```
