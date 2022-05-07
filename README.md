@@ -120,3 +120,29 @@ cmd
   git branch -D clean_architecture
   git branch
 ```
+
+### 04 - Khởi tạo dữ liệu mẫu
+```
+cmd
+  git checkout -b initial_sample_data
+  clear
+lodash npm
+  npm i lodash --save
+  npm audit fix
+sort javascript
+cmd 
+  git status
+  git add .
+  git commit -m "04-Initial sample data."
+  git push origin initial_sample_data
+github
+  Compare & pull request => Create pull request
+  Files changed
+  Merge pull request => Confirm merge
+cmd 
+  git checkout main
+  git pull origin main
+  git branch
+  git branch -D initial_sample_data
+  clear
+```
